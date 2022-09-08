@@ -16,7 +16,7 @@ import com.vaadin.flow.router.Route;
 import javax.annotation.security.PermitAll;
 
 @PageTitle("Contacts | Vaadin CRM")
-@Route(value = "", layout = MainLayout.class)
+@Route(value = "/", layout = MainLayout.class)
 @PermitAll
 public class ListView extends VerticalLayout {
 
